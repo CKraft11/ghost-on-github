@@ -8,9 +8,7 @@ RUN pip2 install --upgrade pip==9.0.3
 RUN	pip2 install buster
 
 COPY /ghost-on-github-pages /tmp
-
 ENTRYPOINT ["docker-entrypoint.sh"]
-
 EXPOSE 2368
 CMD ["node", "current/index.js"]
 
