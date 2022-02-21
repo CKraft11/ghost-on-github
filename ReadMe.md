@@ -24,7 +24,7 @@ Contents of docker-compose.yml file
 
 	services:
 	  ghost:
-        image: CKraft11/ghost-on-github
+        image: ckraft11/ghost-on-github
         container_name: ghost #name your container for easy identification.
         restart: always
         ports:
