@@ -1,4 +1,4 @@
-### CURRENTLY NOT WORKING###
+### CURRENTLY NOT WORKING
 ## Description
 ghost-on-github is a Docker container for running Ghost blog on docker and publising on github pages. 
 This is a combination of official [Ghost](https://hub.docker.com/_/ghost/) docker image and [ghost-on-github](https://github.com/paladini/ghost-on-github-pages) scripts in one docker image for ease of deployment and publishing.
