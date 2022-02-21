@@ -24,7 +24,7 @@ Contents of docker-compose.yml file
 
 	services:
 	  ghost:
-        image: najarramsada/ghost-on-github
+        image: CKraft11/ghost-on-github
         container_name: ghost #name your container for easy identification.
         restart: always
         ports:
@@ -64,4 +64,4 @@ Downside of hosting Ghost blog on Github is that each time you write a new post,
 	docker exec -it <Container name or id> gosu node /tmp/install.sh
 
 ## Contact
-ramsadanajar@gmail.com
+cadenkraft@gmail.com
