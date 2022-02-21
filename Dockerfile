@@ -1,5 +1,5 @@
-FROM ghost:2.1.3
-MAINTAINER Najar Ramsada (ramsadanajar@gmail.com)
+FROM ghost:4.36.1
+MAINTAINER Caden Kraft (cadenkraft@gmail.com)
 
 
 RUN apt-get update && apt-get install -y --no-install-recommends python-dev python-pip git bash vim && apt-get clean
